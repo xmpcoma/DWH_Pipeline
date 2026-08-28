@@ -21,7 +21,7 @@ e-commerce_DWH/
 │ ├── clean_products.csv
 │ └── clean_events.csv
 │
-└── sql/
-├── create_tables.sql # Скрипт создания таблиц в PostgreSQL
-└── validation_queries.sql # Проверочные запросы
+└── queries/
+├── create tables.sql # Скрипт создания таблиц в PostgreSQL
+└── cheking data.sql # Проверочные запросы 
 ```
