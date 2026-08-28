@@ -1,3 +1,4 @@
+```
 ## 📁 Структура проекта
 
 e-commerce_DWH/
@@ -23,3 +24,4 @@ e-commerce_DWH/
 └── sql/
 ├── create_tables.sql # Скрипт создания таблиц в PostgreSQL
 └── validation_queries.sql # Проверочные запросы
+```
