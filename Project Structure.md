@@ -1,6 +1,6 @@
 e-commerce_DWH/
 │
-├── README.md                    
+├── MAIN README.md                    
 ├── DWH_Pipeline.ipynb         
 │
 ├── data/
