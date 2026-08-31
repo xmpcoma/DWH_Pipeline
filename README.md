@@ -23,5 +23,6 @@ e-commerce_DWH/
 │
 └── queries/
 ├── create tables.sql # Скрипт создания таблиц в PostgreSQL
-└── cheking data.sql # Проверочные запросы 
+└── cheking data.sql # Проверочные запросы
+└── queries # Аналитические запросы
 ```
