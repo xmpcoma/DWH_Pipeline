@@ -42,3 +42,18 @@ payments = {
     'amount': valid_orders['total_amount'],  # Сумма = сумме заказа!
     'currency': valid_orders['currency'],     # Валюта совпадает!
     'payment_method': np.random.choice(['card', 'online', 'cash', 'crypto'], p=[0.5, 0.3, 0.15, 0.05]),
+
+```
+
+## 🚀 Быстрый старт через Docker
+
+### Требования:
+- Установлен [Docker](https://www.docker.com/get-started)
+- Установлен [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Запуск:
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/твой-логин/e-commerce_DWH.git
+cd e-commerce_DWH
