@@ -1,17 +1,16 @@
 version: '3.8'
 
 services:
-  db:
+  postgres:
     image: postgres:15
-    container_name: ecommerce_postgres
+    container_name: ecommerce_dwh
     environment:
-      POSTGRES_DB: ecommerce_dwh
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ecommerce
+      POSTGRES_USER: analyst
+      POSTGRES_PASSWORD: password123
     ports:
-      - "5433:5432"  # ← Снаружи 5433, внутри контейнера 5432
+      - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
-
-volumes:
-  pgdata:
+      - ./init:/docker-entrypoint-initdb.d
+      - ./data/processed:/data
+    restart: unless-stopped
