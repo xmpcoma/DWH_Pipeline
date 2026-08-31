@@ -4,7 +4,6 @@
 e-commerce_DWH/
 │
 ├── README.md # Описание проекта
-├── DWH_Pipeline.ipynb # Основной ноутбук (ETL пайплайн)
 │
 ├── data/
 │ ├── raw/ # Исходные данные
@@ -21,8 +20,17 @@ e-commerce_DWH/
 │ ├── clean_products.csv
 │ └── clean_events.csv
 │
+├── init/
+│ ├── 01_create_tables.sql
+│ └── 02_load_data.sql
+│
+├── notebooks/
+│ ├── DWH_Pipeline.ipynb # Очистка данных
+│
 └── queries/
 ├── create tables.sql # Скрипт создания таблиц в PostgreSQL
 └── cheking data.sql # Проверочные запросы
 └── queries # Аналитические запросы
+│
+└──docker-compose.yml
 ```
