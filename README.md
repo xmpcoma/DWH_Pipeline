@@ -21,14 +21,13 @@ e-commerce_DWH/
 │ └── clean_events.csv
 │
 ├── init/
-│ ├── 01_create_tables.sql
-│ └── 02_load_data.sql
+│ ├── 01_create_tables.sql # Создание таблиц
+│ └── 02_load_data.sql # Загрузка данных
 │
 ├── notebooks/
 │ ├── DWH_Pipeline.ipynb # Очистка данных
 │
 └── queries/
-├── create tables.sql # Скрипт создания таблиц в PostgreSQL
 └── cheking data.sql # Проверочные запросы
 └── queries # Аналитические запросы
 │
